@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+  <parameter name="username" value="shalomdaniel13@gmail.com"></parameter>
+  <parameter name="password" value="salavationarmyromancatholic"></parameter>
+  <classes>
+  <class name="maven.Abbas"></class>
+  </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
