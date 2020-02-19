@@ -12,6 +12,7 @@ import org.apache.poi.ss.usermodel.DateUtil;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
+import org.apache.poi.util.SystemOutLogger;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 public class Maven {
@@ -54,6 +55,7 @@ public class Maven {
 				double numericCellValue = c1.getNumericCellValue();
 				long l=(long) numericCellValue;
 				String valueOf = String.valueOf(l);
+				System.out.println(valueOf);
 				System.out.println(valueOf);
 				
 			}
